@@ -1,0 +1,46 @@
+html, body {
+  	height: 100%;
+}
+body {
+	background-image: url('https://i.pinimg.com/originals/3d/c4/49/3dc449b04d9ace524a0ecd247e1fdc83.png');
+	background-size: cover;
+}
+
+.container2 {
+	padding-top: 30px;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: -10px;
+}
+.Input{
+	background-image: url('Icon1.png');
+	/*border: 2px solid #d1a2a2;
+    border-radius: 20px;*/
+	width: 500px;
+	height: 430px;
+	margin: auto;
+    background-size: cover;
+	
+}
+.Input1{
+	font-size: 30px;
+
+}
+#IP1{
+	border: 2px solid #56574f;
+    border-radius: 5px;
+	height: 20px;
+	width: 250px;
+}
+
+#Btn1{
+	color: rgb(192, 206, 166);
+	height: 38px;
+	font-size: 40px;
+	
+}
+#Btn1:hover {
+	color: rgb(19, 95, 10);
+  }

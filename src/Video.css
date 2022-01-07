@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.flex-container {
+    height: calc(100% - 150px);
+    width: 100%;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    max-height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.div-send-msg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-down {
+    z-index: 2;
+    position: fixed; 
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+}
+.Join{
+    width: 30%;
+    height: auto; 
+    min-width: 400px;
+	text-Align: center;
+    margin: auto;
+    margin-Top: 50px;
+    justify-Content: center;
+    font-size: 20px;
+    background: linear-gradient(#cba4ab,#aa5e5a,#99381a);
+    background-size: cover;
+    
+}
+#IP2{
+    font-size: 15px;
+}
+#BtnJoin{
+    background: linear-gradient(#bb2c45,#aa5e5a,#99381a);
+}
